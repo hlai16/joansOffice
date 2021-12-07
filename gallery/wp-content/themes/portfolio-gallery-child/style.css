@@ -1,0 +1,199 @@
+/*
+Theme Name: Portfolio Gallery Child
+Theme URI: https://example.com/portfolio-gallery-child/   
+Description: Portfolio Gallery Child Theme
+Author: Gloria
+Author URI: https://example.com
+Template: portfolio-gallery
+Version: 1.0.0
+Tags: dark background, two-columns, left-sidebar, responsive-layout, accessibility-ready
+Text Domain: portfolio-gallery-child
+*/
+
+/*Wordpress standard*/
+body {
+    background-color: #ffffff;
+    width: 100%;
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+    font-size: 18px;
+    overflow-x: hidden;
+    position: relative;
+  }
+    
+  .custom-header {
+    max-width: 100%;
+    position: center;
+    margin: 0 1em 2em 1em;
+  }
+  
+   .wp-caption {
+    max-width: 90%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+  }
+  
+  
+  a {
+    text-decoration: none;
+    outline: none;
+  }
+  
+  a:link, a:visited {
+    text-decoration: underline;
+  }
+  
+  a:hover, a:focus, a:active {
+    text-decoration: none;
+    font-style: italic;
+  }
+  
+  h1 {
+    font-size: 40px;
+    color: aquamarine;
+  }
+  
+  h2 {
+    font-size: 30px;
+    color: blue;
+    text-shadow: 3px 3px 3px #aaa;
+  }
+  
+  h3 {
+    font-size: 25px;
+    color: goldenrod;
+  }
+
+  p {
+      color: darkorange;
+  }
+  
+  
+  h1, h2, h3, h4, h5, h6, form, p, ul, ol, dl, li {
+    margin: 5px 0px;
+    padding: 5px;
+    font-family: serif;
+  }
+  
+  h2, aside h3 {
+    position: relative;
+    margin: 5px 0px;
+  }
+  
+  h2.site-tagline {
+    font-size: 20px;
+    padding: 5px;
+  }
+  
+  h1, h2, h3, h4, h5, h6, pre, a, p {
+    word-wrap: break-word;
+    word-break: break-word;
+  }
+    
+  p {
+    margin: 0 2px 10px 2px;
+  }
+    
+  #content ol, #content ul {
+    padding-left: 1em;
+  }
+    
+  a img {
+    border: none;
+    box-shadow: 5px 5px 3px 2px #aaa;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 1em dashed #fff;
+    margin: auto;
+  }
+    
+  /*###################################################*/
+  
+  .fixed_menu.left_container {
+    background-position: 0 0;
+  }
+  
+  .img_container {
+    max-width: 100%;
+  }
+  
+  .img_container.fixed {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  
+  .img_container.fixed img {
+    position: absolute;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  
+  }
+  
+  
+  
+  .blog-post .img_container,
+  .about_us-post .img_container {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3em;
+    margin-bottom: 3em;
+  }
+  
+  #content .blog_img_container{
+    display: flex;
+    justify-content: space-between;
+    margin:0 10px 10px 0;
+  }
+  
+  .container {
+    position: relative;
+    margin: 0px auto;
+    clear: both;
+    /*width:1024px;*/
+  }
+  
+  
+  #social {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    list-style: none;
+    height: 37px;
+  }
+  
+  #social li {
+    float: left;
+    margin: 0px 5px 0px 0px;
+  }
+  
+  #social li a {
+    display: block;
+    width: 37px;
+    height: 37px;
+    background: url(images/social.jpg) left top no-repeat;
+    text-indent: -9999px;
+  }
+  
+  #social li.twitter a {
+    background: url(images/social.jpg) left -37px no-repeat;
+  }
+  
+  #social li.gplus a {
+    background: url(images/social.jpg) left -74px no-repeat;
+  }
+  
+  #social li.rss a {
+    background: url(images/social.jpg) left -111px no-repeat;
+  }
+  
+ 

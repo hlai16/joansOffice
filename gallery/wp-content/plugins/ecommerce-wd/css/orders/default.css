@@ -1,0 +1,189 @@
+/* Wordpress.*/
+.widefat th,
+.widefat td {
+  padding: 0 3px;
+}
+
+table.adminlist tr .col_id {
+  width: 130px;
+}
+
+table.adminlist tr .col_checked {
+  width: 15px;
+}
+
+table.adminlist tr .col_order_link {
+  width: 50px;
+  text-align: center;
+}
+
+table.adminlist tr .col_print {
+  width: 50px;
+  text-align: center;
+}
+
+table.adminlist tr .col_user_name {
+  padding-left: 10px;
+  width: 130px;
+}
+
+table.adminlist tr .col_user_ip_address {
+  width: 110px;
+  text-align: center;
+}
+
+table.adminlist tr .col_total_price {
+  width: 70px;
+  text-align: center;
+}
+
+table.adminlist tr .col_checkout_date {
+  width: 95px;
+  text-align: center;
+}
+
+table.adminlist tr .col_date_modified {
+  width: 95px;
+  text-align: center;
+}
+
+table.adminlist tr .col_order_status,
+table.adminlist tr .col_status_id {
+  width: 120px;
+  text-align: center;
+}
+
+table.adminlist tr .col_order_status select {
+  width: 90px;
+}
+
+table.adminlist tr .col_payment_status {
+  width: 85px;
+  text-align: center;
+}
+
+table.adminlist tr .col_read {
+  width: 70px;
+  text-align: center;
+}
+
+table.adminlist tr .col_actions {
+  width: 100px;
+  text-align: center;
+}
+
+.wde_btn {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.wde_btn img {
+  width: 18px;
+  padding: 0 3px;
+  height: 18px;
+}
+
+/* order export as csv popup styles */
+
+.disabled-block {
+    position: fixed;
+    z-index: 100100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #000;
+    opacity: .7;
+    display: none;
+}
+
+.csv-export-popup {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 100101;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    border: 1px solid #e4e4e4;
+    background: #fff;
+    display: none;
+    overflow: hidden;
+}
+
+.export-options-content {
+    padding: 10px;
+    max-height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden; 
+}
+
+.csv-export-popup div {
+    padding: 5px;
+}
+
+.export-popup-attr-bar {
+    border-bottom: 1px solid #ddd;
+}
+
+.export-confirme-content {
+    border-top: 1px solid #ddd;
+}   
+
+.export-popup-attr-bar a {
+    float: right;
+    display: block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 16px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.export-popup-attr-bar a:active {
+    outline: 1px solid #00a0d2;
+}
+
+.export-confirme-content {
+    text-align: right;
+}
+
+.csv-export-popup .clearfix,
+.select-all-btn-header-content .clearfix {
+    float: none;
+    clear: both;
+    width: 0;
+    height: 0;
+    padding: 0;
+    border: 0;
+}
+
+.select-all-btn-header-content {
+  float: left;
+}
+
+.select-all-btn-content {
+    background: #fff;
+    padding: 5px;
+    margin-right: 10px;
+    display: block;
+    float: left;
+}
+
+.all-select-info {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+    border-left: 4px solid #46b450;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.all-select-info p {
+    margin: 0;
+}
+
+.hidden-input {
+    display: none !important;
+}

@@ -1,0 +1,23 @@
+.col_name {
+  width: 200px;
+}
+
+.col_num {
+  display: none;
+}
+
+.countries_cont {
+  height: 65px;
+  overflow-y: auto;
+}
+
+.country_cont {
+  background-clip: padding-box;
+  background-color: #e4e4e4;
+  border-radius: 2px;
+  color: #666666;
+  float: left;
+  margin: 4px;
+  padding: 2px 5px;
+  vertical-align: middle;
+}
